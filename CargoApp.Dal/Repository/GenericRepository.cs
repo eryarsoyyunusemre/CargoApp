@@ -27,7 +27,7 @@ public class GenericRepository<T> : IGenericDal<T> where T :class
          await _context.SaveChangesAsync();
     }
 
-    public async Task DeleteAsync(ObjectId id)
+    public async Task DeleteAsync(string id)
     {
         var value = await GetByIdAsync(id);
         
@@ -44,7 +44,7 @@ public class GenericRepository<T> : IGenericDal<T> where T :class
         return await _context.Set<T>().ToListAsync();
     }
 
-    public async Task<T> GetByIdAsync(ObjectId id)
+    public async Task<T> GetByIdAsync(string id)
     {
         return await _context.Set<T>().FindAsync(id);
     }

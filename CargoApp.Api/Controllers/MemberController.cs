@@ -39,10 +39,7 @@ namespace CargoApp.Api.Controllers
 
             try
             {
-              
                 await _memberService.TCreateAsync(memberDto);
-        
-                
                 return Ok(memberDto);
             }
             catch (Exception ex)
@@ -55,19 +52,10 @@ namespace CargoApp.Api.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteMember(string id)
                  {
-                     if (string.IsNullOrEmpty(id))
-                     {
-                         return BadRequest("Member ID is null or empty.");
-                     }
-         
-                     if (!ObjectId.TryParse(id, out var objectId))
-                     {
-                         return BadRequest("Invalid Member ID format.");
-                     }
-         
+              
                      try
                      {
-                         await _memberService.TDeleteAsync(objectId);
+                         await _memberService.TDeleteAsync(id);
                          return Ok("Member deleted successfully.");
                      }
                      catch (Exception ex)

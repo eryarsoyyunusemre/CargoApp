@@ -5,9 +5,8 @@ using MongoDB.Bson.Serialization.Attributes;
 
 namespace CargoApp.Entities.Models
 {
-    public class Member 
+    public class Member :BaseEntity
     {
-        public string? Id { get; set; }
         
         public string? Name { get; set; }
         public string? LastName { get; set; }

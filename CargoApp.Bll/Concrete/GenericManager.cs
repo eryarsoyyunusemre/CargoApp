@@ -24,7 +24,7 @@ public class GenericManager<T> : IGenericService<T> where T :class
         await _genericDal.UpdateAsync(entity);
     }
 
-    public async Task TDeleteAsync(ObjectId id)
+    public async Task TDeleteAsync(string id)
     {
         await _genericDal.DeleteAsync(id);
     }
@@ -34,7 +34,7 @@ public class GenericManager<T> : IGenericService<T> where T :class
         return await _genericDal.GetListAsync();
     }
 
-    public async Task<T> TGetByIdAsync(ObjectId id)
+    public async Task<T> TGetByIdAsync(string id)
     {
         return await _genericDal.GetByIdAsync(id);
     }

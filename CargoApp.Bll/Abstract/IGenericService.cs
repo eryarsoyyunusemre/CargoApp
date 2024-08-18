@@ -6,7 +6,7 @@ public interface IGenericService<T> where T :class
 {
     Task TCreateAsync(T entity);
     Task TUpdateAsync(T entity);
-    Task TDeleteAsync(ObjectId id);
+    Task TDeleteAsync(string id);
     Task<List<T>> TGetListAsync();
-    Task<T> TGetByIdAsync(ObjectId id);
+    Task<T> TGetByIdAsync(string id);
 }
