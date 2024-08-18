@@ -9,5 +9,6 @@ public class EfShippingDal : GenericRepository<Shipping>,IShippingDal
 {
     public EfShippingDal(CargoAppContext context) : base(context)
     {
+        
     }
 }
