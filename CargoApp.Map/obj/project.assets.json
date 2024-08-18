@@ -275,7 +275,7 @@
           }
         }
       },
-      "MongoDB.Bson/2.22.0": {
+      "MongoDB.Bson/2.28.0": {
         "type": "package",
         "dependencies": {
           "System.Memory": "4.5.5",
@@ -494,6 +494,8 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.20",
+          "MongoDB.Bson": "2.22.0",
+          "MongoDB.Driver": "2.22.0",
           "MongoDB.EntityFrameworkCore": "7.0.0-preview.1"
         },
         "compile": {
@@ -954,21 +956,21 @@
         "version.txt"
       ]
     },
-    "MongoDB.Bson/2.22.0": {
-      "sha512": "7Z+uP+PeIBrkzzRORTCjrMSYhzQgXxLYkXyML8WsBN7tHddicNY9Xh8Cmp5gRR4U4NuEbXCQtHplju0iVY/KuA==",
+    "MongoDB.Bson/2.28.0": {
+      "sha512": "yiWN3scVV0lYpFXn1CL4PB0BK3KrHFC44qw72+/cBIDS9+r9MQYfxFMxM+pAvnSssAZtQ7ZabCu7z3UOXqKy4w==",
       "type": "package",
-      "path": "mongodb.bson/2.22.0",
+      "path": "mongodb.bson/2.28.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "LICENSE.md",
+        "README.md",
         "lib/net472/MongoDB.Bson.dll",
         "lib/net472/MongoDB.Bson.xml",
         "lib/netstandard2.0/MongoDB.Bson.dll",
         "lib/netstandard2.0/MongoDB.Bson.xml",
         "lib/netstandard2.1/MongoDB.Bson.dll",
         "lib/netstandard2.1/MongoDB.Bson.xml",
-        "mongodb.bson.2.22.0.nupkg.sha512",
+        "mongodb.bson.2.28.0.nupkg.sha512",
         "mongodb.bson.nuspec",
         "packageIcon.png"
       ]
@@ -1307,6 +1309,8 @@
     "net7.0": [
       "CargoApp.Entities >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.20",
+      "MongoDB.Bson >= 2.28.0",
+      "MongoDB.Driver >= 2.22.0",
       "MongoDB.EntityFrameworkCore >= 7.0.0-preview.1"
     ]
   },
@@ -1354,6 +1358,14 @@
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[7.0.20, )"
+          },
+          "MongoDB.Bson": {
+            "target": "Package",
+            "version": "[2.28.0, )"
+          },
+          "MongoDB.Driver": {
+            "target": "Package",
+            "version": "[2.22.0, )"
           },
           "MongoDB.EntityFrameworkCore": {
             "target": "Package",

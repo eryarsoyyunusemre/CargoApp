@@ -1,0 +1,16 @@
+/Users/yunusemre/Desktop/CargoApplication/CargoApp.Map/bin/Debug/net7.0/CargoApp.Map.deps.json
+/Users/yunusemre/Desktop/CargoApplication/CargoApp.Map/bin/Debug/net7.0/CargoApp.Map.dll
+/Users/yunusemre/Desktop/CargoApplication/CargoApp.Map/bin/Debug/net7.0/CargoApp.Map.pdb
+/Users/yunusemre/Desktop/CargoApplication/CargoApp.Map/bin/Debug/net7.0/CargoApp.Entities.dll
+/Users/yunusemre/Desktop/CargoApplication/CargoApp.Map/bin/Debug/net7.0/CargoApp.Entities.pdb
+/Users/yunusemre/Desktop/CargoApplication/CargoApp.Map/obj/Debug/net7.0/CargoApp.Map.csproj.AssemblyReference.cache
+/Users/yunusemre/Desktop/CargoApplication/CargoApp.Map/obj/Debug/net7.0/CargoApp.Map.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yunusemre/Desktop/CargoApplication/CargoApp.Map/obj/Debug/net7.0/CargoApp.Map.AssemblyInfoInputs.cache
+/Users/yunusemre/Desktop/CargoApplication/CargoApp.Map/obj/Debug/net7.0/CargoApp.Map.AssemblyInfo.cs
+/Users/yunusemre/Desktop/CargoApplication/CargoApp.Map/obj/Debug/net7.0/CargoApp.Map.csproj.CoreCompileInputs.cache
+/Users/yunusemre/Desktop/CargoApplication/CargoApp.Map/obj/Debug/net7.0/CargoApp.Map.sourcelink.json
+/Users/yunusemre/Desktop/CargoApplication/CargoApp.Map/obj/Debug/net7.0/CargoApp.6A766321.Up2Date
+/Users/yunusemre/Desktop/CargoApplication/CargoApp.Map/obj/Debug/net7.0/CargoApp.Map.dll
+/Users/yunusemre/Desktop/CargoApplication/CargoApp.Map/obj/Debug/net7.0/refint/CargoApp.Map.dll
+/Users/yunusemre/Desktop/CargoApplication/CargoApp.Map/obj/Debug/net7.0/CargoApp.Map.pdb
+/Users/yunusemre/Desktop/CargoApplication/CargoApp.Map/obj/Debug/net7.0/ref/CargoApp.Map.dll

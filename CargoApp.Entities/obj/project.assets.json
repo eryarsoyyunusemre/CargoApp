@@ -1287,6 +1287,8 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "Microsoft.EntityFrameworkCore >= 7.0.20",
+      "MongoDB.Bson >= 2.22.0",
+      "MongoDB.Driver >= 2.22.0",
       "MongoDB.EntityFrameworkCore >= 7.0.0-preview.1"
     ]
   },
@@ -1330,6 +1332,14 @@
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[7.0.20, )"
+          },
+          "MongoDB.Bson": {
+            "target": "Package",
+            "version": "[2.22.0, )"
+          },
+          "MongoDB.Driver": {
+            "target": "Package",
+            "version": "[2.22.0, )"
           },
           "MongoDB.EntityFrameworkCore": {
             "target": "Package",

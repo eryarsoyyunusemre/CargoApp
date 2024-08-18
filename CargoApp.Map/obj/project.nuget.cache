@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "sWq+OqNi+Vdu5+GBOpRyoWH+K+JTJND4eNsTMDtKZcOR4lP/CphSG5tYSSy4FxBtVvgxQ+Gc0K7RBz8o8idHcw==",
+  "dgSpecHash": "Ho4idrwgYVxqJ55WeorZGzxu17sA1dJBH9ZkHxp8gfbeFwcADes4slQgyn6tvEzI7RNnwg2mw4yz7jhdy+5zow==",
   "success": true,
   "projectFilePath": "/Users/yunusemre/Desktop/CargoApplication/CargoApp.Map/CargoApp.Map.csproj",
   "expectedPackageFiles": [
@@ -20,7 +20,7 @@
     "/Users/yunusemre/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "/Users/yunusemre/.nuget/packages/microsoft.netcore.platforms/5.0.0/microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "/Users/yunusemre/.nuget/packages/microsoft.win32.registry/5.0.0/microsoft.win32.registry.5.0.0.nupkg.sha512",
-    "/Users/yunusemre/.nuget/packages/mongodb.bson/2.22.0/mongodb.bson.2.22.0.nupkg.sha512",
+    "/Users/yunusemre/.nuget/packages/mongodb.bson/2.28.0/mongodb.bson.2.28.0.nupkg.sha512",
     "/Users/yunusemre/.nuget/packages/mongodb.driver/2.22.0/mongodb.driver.2.22.0.nupkg.sha512",
     "/Users/yunusemre/.nuget/packages/mongodb.driver.core/2.22.0/mongodb.driver.core.2.22.0.nupkg.sha512",
     "/Users/yunusemre/.nuget/packages/mongodb.entityframeworkcore/7.0.0-preview.1/mongodb.entityframeworkcore.7.0.0-preview.1.nupkg.sha512",

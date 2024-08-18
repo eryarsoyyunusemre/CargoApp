@@ -17,7 +17,6 @@ public class CargoAppContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.ApplyConfiguration(new MemberMap());
-        modelBuilder.ApplyConfiguration(new ShippingMap());
+       
     }
 }

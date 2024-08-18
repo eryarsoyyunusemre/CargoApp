@@ -30,6 +30,11 @@ public class GenericRepository<T> : IGenericDal<T> where T :class
     public async Task DeleteAsync(ObjectId id)
     {
         var value = await GetByIdAsync(id);
+        
+        if (value == null)
+        {
+            throw new KeyNotFoundException("The item with the specified ID was not found.");
+        }
         _context.Remove(value);
         await _context.SaveChangesAsync();
     }

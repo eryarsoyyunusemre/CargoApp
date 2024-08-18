@@ -1,0 +1,13 @@
+/Users/yunusemre/Desktop/CargoApplication/CargoApp.Entities/bin/Debug/net7.0/CargoApp.Entities.deps.json
+/Users/yunusemre/Desktop/CargoApplication/CargoApp.Entities/bin/Debug/net7.0/CargoApp.Entities.dll
+/Users/yunusemre/Desktop/CargoApplication/CargoApp.Entities/bin/Debug/net7.0/CargoApp.Entities.pdb
+/Users/yunusemre/Desktop/CargoApplication/CargoApp.Entities/obj/Debug/net7.0/CargoApp.Entities.csproj.AssemblyReference.cache
+/Users/yunusemre/Desktop/CargoApplication/CargoApp.Entities/obj/Debug/net7.0/CargoApp.Entities.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yunusemre/Desktop/CargoApplication/CargoApp.Entities/obj/Debug/net7.0/CargoApp.Entities.AssemblyInfoInputs.cache
+/Users/yunusemre/Desktop/CargoApplication/CargoApp.Entities/obj/Debug/net7.0/CargoApp.Entities.AssemblyInfo.cs
+/Users/yunusemre/Desktop/CargoApplication/CargoApp.Entities/obj/Debug/net7.0/CargoApp.Entities.csproj.CoreCompileInputs.cache
+/Users/yunusemre/Desktop/CargoApplication/CargoApp.Entities/obj/Debug/net7.0/CargoApp.Entities.sourcelink.json
+/Users/yunusemre/Desktop/CargoApplication/CargoApp.Entities/obj/Debug/net7.0/CargoApp.Entities.dll
+/Users/yunusemre/Desktop/CargoApplication/CargoApp.Entities/obj/Debug/net7.0/refint/CargoApp.Entities.dll
+/Users/yunusemre/Desktop/CargoApplication/CargoApp.Entities/obj/Debug/net7.0/CargoApp.Entities.pdb
+/Users/yunusemre/Desktop/CargoApplication/CargoApp.Entities/obj/Debug/net7.0/ref/CargoApp.Entities.dll

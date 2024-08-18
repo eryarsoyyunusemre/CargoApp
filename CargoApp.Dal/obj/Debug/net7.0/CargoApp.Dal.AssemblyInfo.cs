@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CargoApp.Dal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9758b76246a7c82768fafb9b961954557b112c57")]
 [assembly: System.Reflection.AssemblyProductAttribute("CargoApp.Dal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CargoApp.Dal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

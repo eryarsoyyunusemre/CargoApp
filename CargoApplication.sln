@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CargoApp.Map", "CargoApp.Ma
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CargoApp.Api", "CargoApp.Api\CargoApp.Api.csproj", "{2178B058-1DFE-4928-8624-9661B26C86ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CargoApp.Bll", "CargoApp.Bll\CargoApp.Bll.csproj", "{82093244-FCE1-4BF8-B4AF-133A6AA44C41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{2178B058-1DFE-4928-8624-9661B26C86ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2178B058-1DFE-4928-8624-9661B26C86ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2178B058-1DFE-4928-8624-9661B26C86ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82093244-FCE1-4BF8-B4AF-133A6AA44C41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82093244-FCE1-4BF8-B4AF-133A6AA44C41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82093244-FCE1-4BF8-B4AF-133A6AA44C41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82093244-FCE1-4BF8-B4AF-133A6AA44C41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
