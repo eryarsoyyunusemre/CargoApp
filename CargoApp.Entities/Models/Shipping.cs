@@ -14,7 +14,7 @@ namespace CargoApp.Entities.Models
         [BsonRepresentation(BsonType.ObjectId)]
         public string ReceiverId { get; set; }
 
-        public int PackageNumber { get; set; }
+        public int PackageCount { get; set; }
         public int PackageWeight { get; set; }
         public string Description { get; set; }
     }
