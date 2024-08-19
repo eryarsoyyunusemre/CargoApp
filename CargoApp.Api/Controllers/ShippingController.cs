@@ -9,62 +9,63 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CargoApp.Api.Controllers
 {
-    
     [Route("api/[controller]")]
     [ApiController]
-    public class MemberController : ControllerBase
+    public class ShippingController : ControllerBase
     {
-        private readonly IMemberService _memberService;
 
-        public MemberController(IMemberService memberService)
+        private readonly IShippingService _shippingService;
+
+        public ShippingController(IShippingService shippingService)
         {
-            _memberService = memberService;
+            _shippingService = shippingService;
         }
-            
+        
         [HttpGet]
-        public async Task<IActionResult> GetMember()
+        public async Task<IActionResult> GetShipping()
         {
-            var values = await _memberService.TGetListAsync();
+            var values = await _shippingService.TGetListAsync();
             return Ok(values); 
         }
         
         [HttpGet("{id}")]
         public async Task<IActionResult> GetMemberById(string id)
         {
-            var values = await _memberService.TGetByIdAsync(id);
+            var values = await _shippingService.TGetByIdAsync(id);
             return Ok(values); 
         }
-
+        
         [HttpPost]
-        public async Task<IActionResult> CreateMember(Member memberDto)
+        public async Task<IActionResult> CreateMember(Shipping shipping)
         {
-            if (memberDto == null)
+            if (shipping == null)
             {
-                return BadRequest("Member data is null.");
+                return BadRequest("Shipping data is null.");
             }
 
             try
             {
-                await _memberService.TCreateAsync(memberDto);
-                return Ok(memberDto);
+                await _shippingService.TCreateAsync(shipping);
+                return Ok(shipping);
             }
             catch (Exception ex)
             {
                 // Hata durumunda, InternalServerError (500) döndürüyoruz
-                return StatusCode(500, "An error occurred while creating the member: " + ex.Message);
+                return StatusCode(500, "An error occurred while creating the shipping: " + ex.Message);
             }
         }
-
+        
+        
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteMember(string id)
         {
             try {
-                await _memberService.TDeleteAsync(id);
-                return Ok("Member deleted successfully.");
+                await _shippingService.TDeleteAsync(id);
+                return Ok("Shipping deleted successfully.");
                          
             }catch (Exception ex) {
                 // Hata durumunda, InternalServerError (500) döndürüyoruz
-                return StatusCode(500, "An error occurred while deleting the member: " + ex.Message);
+                return StatusCode(500, "An error occurred while deleting the shipping: " + ex.Message);
             }
         }
         

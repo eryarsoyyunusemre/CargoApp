@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CargoApp.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b5280020e297d71bbd0cb833993bf778688f12a7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93b5e121db9b0dc6d829741d78fc65a4f96c8d44")]
 [assembly: System.Reflection.AssemblyProductAttribute("CargoApp.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CargoApp.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
