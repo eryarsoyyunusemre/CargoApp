@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CargoApp.Api.Dtos.MemberDto;
 using CargoApp.Bll.Abstract;
 using CargoApp.Entities.Models;
 using Microsoft.AspNetCore.Http;
@@ -36,16 +37,21 @@ namespace CargoApp.Api.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateMember(Member memberDto)
+        public async Task<IActionResult> CreateMember(CreateMemberDto memberDto)
         {
-            if (memberDto == null)
-            {
-                return BadRequest("Member data is null.");
-            }
-
             try
             {
-                await _memberService.TCreateAsync(memberDto);
+                var member = new Member
+                {
+                    Id = Guid.NewGuid().ToString(),
+                    Name = memberDto.Name,
+                    LastName = memberDto.LastName,
+                    Address = memberDto.Address,
+                    AddressType = memberDto.AddressType
+                    
+                };
+
+                await _memberService.TCreateAsync(member);
                 return Ok(memberDto);
             }
             catch (Exception ex)
