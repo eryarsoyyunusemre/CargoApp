@@ -8,5 +8,7 @@ public interface IGenericDal<T> where T : class
     Task UpdateAsync(T entity);
     Task DeleteAsync(string id);
     Task<List<T>> GetListAsync();
+    
+    
     Task<T> GetByIdAsync(string id);
 }

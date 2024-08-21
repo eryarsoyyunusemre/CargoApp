@@ -44,6 +44,8 @@ public class GenericRepository<T> : IGenericDal<T> where T :class
         return await _context.Set<T>().ToListAsync();
     }
 
+
+
     public async Task<T> GetByIdAsync(string id)
     {
         return await _context.Set<T>().FindAsync(id);

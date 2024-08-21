@@ -29,6 +29,15 @@ namespace CargoApp.Api.Controllers
             return Ok(values); 
         }
         
+        [HttpGet("/getId")]
+        public async Task<IActionResult> GetMembersIds()
+        {
+            var values = await _memberService.TGetListAsync();
+            var ids = values.Select(v => v.Id); // Burada ID'leri seçiyoruz
+            return Ok(ids); 
+        }
+
+        
         [HttpGet("{id}")]
         public async Task<IActionResult> GetMemberById(string id)
         {
